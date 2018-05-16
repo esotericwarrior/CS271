@@ -185,7 +185,7 @@ Display:		; Display the results.
 					mov		edx, OFFSET space			; Move the offset into the EDX register.
 					call	WriteString					; Call WriteString to display " " to the screen.
 					mov		edx, OFFSET dividedby		; Move the offset into the EDX register.
-					call	WriteString					; Call WriteString to display "÷" to the screen.
+					call	WriteString					; Call WriteString to display "Ã·" to the screen.
 					mov		edx, OFFSET space			; Move the offset into the EDX register.
 					call	WriteString					; Call WriteString to display " " to the screen.
 					mov		eax, int_2					; Move the second integer into the EAX register.
