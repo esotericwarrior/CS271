@@ -10,11 +10,11 @@ TITLE Program Template     (Project06.asm)
 ;							Problem Definition:
 ;------------------------------------------------------------------------
 ; Implement and test your own ReadVal and WriteVal procedures for unsigned integers.
-; Implement macros getString and displayString. The macros may use Irvine’s ReadString to get input from the user, and WriteString to display output.
-; getString should display a prompt, then get the user’s keyboard input into a memory location
+; Implement macros getString and displayString. The macros may use Irvineâ€™s ReadString to get input from the user, and WriteString to display output.
+; getString should display a prompt, then get the userâ€™s keyboard input into a memory location
 ; displayString should print the string which is stored in a specified memory location.
-; readVal should invoke the getString macro to get the user’s string of digits.
-; It should then convert thedigit string to numeric, while validating the user’s input.
+; readVal should invoke the getString macro to get the userâ€™s string of digits.
+; It should then convert thedigit string to numeric, while validating the userâ€™s input.
 ; writeVal should convert a numeric value to a string of digits, and invoke the displayString macro toproduce the output.
 ; Write a small test program that gets 10 valid integers from the user and stores the
 ;------------------------------------------------------------------------
@@ -84,7 +84,7 @@ test_finished		BYTE	"Finished.", 0									; Testing error message.
 ;------------------------------------------------------------------------
 ; Extra Credit Variables
 ;------------------------------------------------------------------------
-EC_prompt1			BYTE	"**EC: This program numbers each line of the user's input and displays a running subtotal of the user’s numbers.", 0
+EC_prompt1			BYTE	"**EC: This program numbers each line of the user's input and displays a running subtotal of the userâ€™s numbers.", 0
 EC_prompt2			BYTE	"**EC: The ReadVal and WriteVal procedures handle floating point values.", 0
 runningTotal		DWORD	?												; Variable used to hold the running total of user's integers.
 runningTotalMsg		BYTE	"Running subtotal: ", 0							; Running total display message.
@@ -207,9 +207,9 @@ introduction PROC
 introduction ENDP
 ;------------------------------------------------------------------------
 ;								readVal									;
-; readVal should invoke the getString macro to get the user’s string of	;
+; readVal should invoke the getString macro to get the userâ€™s string of	;
 ; digits. It should then convert thedigit string to numeric, while		;
-; validating the user’s input.											;
+; validating the userâ€™s input.											;
 ;------------------------------------------------------------------------
 readVal	PROC
 ;------------------------------------------------------------------------
