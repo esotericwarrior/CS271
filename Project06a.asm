@@ -7,7 +7,7 @@ TITLE Program Template     (Project06.asm)
 ; Project Number: 06              Due Date: 6/10/18
 ; Description: This program prompts the user to enter 10 integers, validates those integers, calculates the sum and average, and displays the results.
 ;------------------------------------------------------------------------
-;							Problem Definition:
+; Problem Definition:
 ;------------------------------------------------------------------------
 ; Implement and test your own ReadVal and WriteVal procedures for unsigned integers.
 ; Implement macros getString and displayString. The macros may use Irvine’s ReadString to get input from the user, and WriteString to display output.
