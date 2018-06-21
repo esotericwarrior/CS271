@@ -1,7 +1,7 @@
 TITLE Program Template     (Project06.asm)
 
 ; Author: Tristan Santiago
-; Last Modified: 6/10/18
+; Last Modified: 6/21/18
 ; OSU email address: santiatr@oregonstate.edu
 ; Course number/section: CS271_400
 ; Project Number: 06              Due Date: 6/10/18
